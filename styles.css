@@ -1,14 +1,14 @@
 .bg1
 {
-    background-image: url(img/bg1.png);
+    background-image: url(img/bg1.jpg);
 }
 .bg2
 {
-    background-image: url(img/bg10.png);
+    background-image: url(img/bg2.png);
 }
 .bg3
 {
-    background-image: url(img/bg3.png);
+    background-image: url(img/bg3.jpg);
     
 }
 .slides{
@@ -33,9 +33,11 @@
     top: 200px;
     width: 100%;
     color: #FFF;
-    background-color: rgba(0, 0, 0,0.7);
+    text-shadow: 5px 5px 8px black;
+    background-color: rgba(0, 0, 0,0.5);
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
 .text
 {    text-align: center;
@@ -44,10 +46,13 @@
 }
 .bodyTxt
 {
+    font-weight: 700;
     padding-top: 3%;
     text-align: center;
     font-family: Comic, cursive, sans-serif;
-    color:black
+    color:sandybrown;
+    text-shadow: 3px 3px 8px black
+    
 }
 
 .justify-btn
@@ -68,7 +73,8 @@
     margin-right:16%;
     padding:20px;
     padding-left: 20px;
-   background-color: rgba(0, 0, 0,0.2);
+    
+   /* background-color: rgba(0, 0, 0,0.2); */
 }
 .leftAlign
 {
@@ -80,7 +86,7 @@
 }
 .store
 {
-    background-image: url(img/sbg1.png);
+    background-image: url(img/sbg2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -91,7 +97,15 @@
 {
     width:250px;
     height: 295px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  
 }
+
+.cardSize:hover {   
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    
+  }
+  
 .card-img-size
 {
     height: 200px;
